@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:checkable="true"
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+    <item
+        android:checkable="true"
+        android:id="@+id/nav_channel_list"
+        android:title="ChannelList" />
+
+    <item android:title="others">
+        <menu>
+
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_share"
+                android:title="Share App" />
+
+
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_about"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+</menu>
